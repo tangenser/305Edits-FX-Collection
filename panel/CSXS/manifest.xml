@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.305edits.tracking" ExtensionBundleVersion="0.3.0" ExtensionBundleName="305Edits Tracking">
+ <ExtensionList><Extension Id="com.305edits.tracking.panel" Version="0.3.0"/></ExtensionList>
+ <ExecutionEnvironment><HostList><Host Name="PPRO" Version="[26.5,26.999]"/></HostList><LocaleList><Locale Code="All"/></LocaleList><RequiredRuntimeList><RequiredRuntime Name="CSXS" Version="12.0"/></RequiredRuntimeList></ExecutionEnvironment>
+ <DispatchInfoList><Extension Id="com.305edits.tracking.panel"><DispatchInfo><Resources><MainPath>./mask.html</MainPath><ScriptPath>./jsx/mask_host.jsx</ScriptPath><CEFCommandLine><Parameter>--enable-nodejs</Parameter><Parameter>--mixed-context</Parameter></CEFCommandLine></Resources><Lifecycle><AutoVisible>true</AutoVisible></Lifecycle><UI><Type>Panel</Type><Menu>305Edits Tracking</Menu><Geometry><Size><Width>560</Width><Height>760</Height></Size><MinSize><Width>400</Width><Height>560</Height></MinSize></Geometry></UI></DispatchInfo></Extension></DispatchInfoList>
+</ExtensionManifest>
